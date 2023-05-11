@@ -1,0 +1,21 @@
+#!/bin/sh
+cd ${0%/*} || exit 1                        # Run from this directory
+. $WM_PROJECT_DIR/bin/tools/RunFunctions    # Tutorial run functions
+
+sed -i -e '20s/.*/startFrom       latestTime;/' system/controlDict
+postProcess -func writeCellCentres
+postProcess -func "components(U)"
+writeFieldsMLr1
+postProcess -func "components(gradp)"
+postProcess -func "components(gradk)"
+postProcess -func "components(DUDt)"
+#gnuplot Residuals.txt
+#mv --backup=numbered *.png /home/ryley/WDK/OpenFOAM/ryley-v2006/run/Residual_plots/
+sed -i -e '20s/.*/startFrom       startTime;/' system/controlDict
+
+
+
+
+
+
+#------------------------------------------------------------------------------

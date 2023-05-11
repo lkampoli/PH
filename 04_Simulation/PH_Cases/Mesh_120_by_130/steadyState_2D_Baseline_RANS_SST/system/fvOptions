@@ -1,0 +1,66 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1812                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      fvOptions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+/*
+momentumSource
+{
+    type            meanVelocityForce;
+
+    selectionMode   cellZone;
+    cellZone        inletCellZone;
+
+    fields          (U);
+    Ubar            (1 0 0);
+}
+
+*/
+
+momentumSource
+{
+    type            pressureGradientExplicitSource;
+    active          on;            //on/off switch
+    selectionMode   cellZone;           //cellSet // points //cellZone //all
+    cellZone        inletCellZone;
+
+    pressureGradientExplicitSourceCoeffs
+    {
+        fieldNames  (U);
+        Ubar        (1 0 0);
+        //flowDir     (1 0 0);
+        //gradPini    gradPini [0 2 -2 0 0] 0;
+    }
+
+}
+
+/*
+momentumSource
+{
+    type vectorSemiImplicitSource;
+    active on; //on/off switch
+    selectionMode all; //cellSet // points //cellZone
+
+    vectorSemiImplicitSourceCoeffs
+    {
+        volumeMode specific;
+        injectionRateSuSp
+        {
+            U (( 1.0 0 0 ) 0);
+        }
+    }
+}
+*/
+
+// ************************************************************************* //

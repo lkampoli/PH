@@ -1,0 +1,89 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      fvSolution;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+solvers
+{
+
+    p
+    {
+        solver          GAMG;
+        tolerance       1e-9;
+        relTol          0.01;
+        smoother        GaussSeidel; //DICGaussSeidel;
+    }
+
+    pFinal
+    {
+        $p;
+        tolerance       1e-09;
+        relTol          0;
+    }
+
+    "(U|k|epsilon|omega|R|nuTilda|phit|v2|f)"
+    {
+        solver          smoothSolver;
+        smoother        GaussSeidel;
+        smoother        symGaussSeidel;
+        tolerance       1e-09;
+        relTol          0;
+    }
+
+    "(U|k|epsilon|omega|nuTilda|phit|v2|f)Final"
+    {
+        $U;
+        relTol          0;
+    }
+}
+
+PIMPLE
+{
+    nNonOrthogonalCorrectors 0;
+    nCorrectors              1;
+    nOuterCorrectors         50;
+    pRefCell                 0;
+    pRefValue                0;
+ 
+    residualControl
+    {
+        U
+        {
+                tolerance  1e-9;
+                relTol      0;
+        }
+        p
+        {
+                tolerance  1e-9;
+                relTol      0;
+        }
+     }
+}
+ 
+relaxationFactors
+{
+    fields
+    {
+        p      0.6;
+        pFinal   1;
+    }
+    equations
+    {
+        "U|k|epsilon|omega|phit|v2"          0.6;
+        "(U|k|epsilon|omega|phit|v2)Final"   1;
+    }
+}
+
+// ************************************************************************* //

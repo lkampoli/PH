@@ -1,0 +1,49 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  plus                                  |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      RASProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+simulationType RASModel;
+
+
+    RASModel               kOmegaSSTKCIModelsComb; //kOmegaSST; //; //kOmegaSST;
+
+    turbulence          on;
+
+    printCoeffs         on;
+    
+    
+      kOmegaSSTKCIModelsCombCoeffs {
+       model Tr.R.BFS.region.a5.k_froz_omega_froz ; // 
+
+/*
+    alphaK1         1.1; //0.85;
+    alphaK2         1.1; //1;
+    alphaOmega1     0.53; // 0.5;
+    alphaOmega2     1.0; //0.856;
+    gamma1          0.518; //0.55555556;
+    gamma2          0.44;
+    beta1           0.0747; //0.075;
+    beta2           0.0828;
+    betaStar        0.09;
+    a1              0.31;
+    b1              1;
+    c1              10;
+
+*/
+
+       } 
+
+         
+// ************************************************************************* //

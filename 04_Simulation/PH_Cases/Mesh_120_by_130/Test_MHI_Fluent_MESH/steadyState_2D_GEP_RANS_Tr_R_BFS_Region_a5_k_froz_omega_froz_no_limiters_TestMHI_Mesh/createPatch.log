@@ -1,0 +1,67 @@
+ANS_Tr_R_BFS_Region_a5_k_froz_omega_froz_no_limiters_TestMHI_Mesh$ createPatch
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : createPatch
+Date   : Sep 21 2020
+Time   : 00:25:40
+Host   : "ali-HP-EliteDesk-800-G1-SFF"
+PID    : 25859
+Case   : /media/ali/8TB_External/Post_Doc_stuff/MHI_cases/PeriodicHill/periodicHill/Mesh_200_by_160_SELECTED/New_GEP_models_developed_by_ALI/Test_MHI_Fluent_MESH/steadyState_2D_GEP_RANS_Tr_R_BFS_Region_a5_k_froz_omega_froz_no_limiters_TestMHI_Mesh
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading createPatchDict
+
+Adding new patch inlet as patch 5 from 
+{
+    type            cyclic;
+    matchTolerance  0.0001;
+    transform       unknown;
+    neighbourPatch  outlet;
+}
+
+Adding new patch outlet as patch 6 from 
+{
+    type            cyclic;
+    matchTolerance  0.0001;
+    transform       unknown;
+    neighbourPatch  inlet;
+}
+
+
+Moving faces from patch per_1 to patch 5
+Moving faces from patch per_2 to patch 6
+
+Doing topology modification to order faces.
+
+Dumping inlet faces to "coupled_inlet.obj"
+Dumping outlet faces to "coupled_outlet.obj"
+Dumping cyclic match as lines between face centres to "coupled_inletoutlet_match.obj"
+Not synchronising points.
+
+Removing patches with no faces in them.
+
+Removing zero-sized patch per_2 type patch at position 0
+Removing zero-sized patch per_1 type patch at position 1
+Removing patches.
+Dumping inlet faces to "final_inlet.obj"
+Dumping outlet faces to "final_outlet.obj"
+Dumping cyclic match as lines between face centres to "final_inletoutlet_match.obj"
+Writing repatched mesh to 1
+
+End
+
+

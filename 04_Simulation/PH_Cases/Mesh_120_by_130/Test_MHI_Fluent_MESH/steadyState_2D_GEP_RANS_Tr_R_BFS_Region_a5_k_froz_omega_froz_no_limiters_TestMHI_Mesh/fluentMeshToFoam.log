@@ -1,0 +1,80 @@
+ANS_Tr_R_BFS_Region_a5_k_froz_omega_froz_no_limiters_TestMHI_Mesh$ fluentMeshToFoam  mesh_data_MHI/model-1_2d_an1_mesh-3_120x130_bl\=0.1-1.05-20.msh
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : fluentMeshToFoam mesh_data_MHI/model-1_2d_an1_mesh-3_120x130_bl=0.1-1.05-20.msh
+Date   : Sep 20 2020
+Time   : 23:43:00
+Host   : "ali-HP-EliteDesk-800-G1-SFF"
+PID    : 25050
+Case   : /media/ali/8TB_External/Post_Doc_stuff/MHI_cases/PeriodicHill/periodicHill/Mesh_200_by_160_SELECTED/New_GEP_models_developed_by_ALI/Test_MHI_Fluent_MESH/steadyState_2D_GEP_RANS_Tr_R_BFS_Region_a5_k_froz_omega_froz_no_limiters_TestMHI_Mesh
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Dimension of grid: 2
+Number of points: 15851
+Reading points
+number of faces: 31450
+Reading mixed faces
+Reading mixed faces
+Reading mixed faces
+Reading mixed faces
+Reading mixed faces
+Number of cells: 15600
+Other readCellGroupData: 2 1 3cf0 1 3
+Reading uniform cells
+Read zone1:2 name:fluid patchTypeID:fluid
+Reading zone data
+Read zone1:3 name:per_2 patchTypeID:wall
+Reading zone data
+Read zone1:4 name:per_1 patchTypeID:wall
+Reading zone data
+Read zone1:5 name:w_bottom patchTypeID:wall
+Reading zone data
+Read zone1:6 name:w_top patchTypeID:wall
+Reading zone data
+Read zone1:8 name:default-interior patchTypeID:interior
+Reading zone data
+
+
+FINISHED LEXING
+
+
+dimension of grid: 2
+Grid is 2-D. Extruding in z-direction by: 18.996557
+Creating shapes for 2-D cells
+Building patch-less mesh...--> FOAM Warning : 
+    From function polyMesh::polyMesh(... construct from shapes...)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 627
+    Found 31700 undefined faces in mesh; adding to default patch.
+done.
+
+Building boundary and internal patches.
+Creating patch 0 for zone: 3 start: 1 end: 130 type: wall name: per_2
+Creating patch 1 for zone: 4 start: 131 end: 260 type: wall name: per_1
+Creating patch 2 for zone: 5 start: 261 end: 380 type: wall name: w_bottom
+Creating patch 3 for zone: 6 start: 381 end: 500 type: wall name: w_top
+Creating patch 4 for zone: 8 start: 501 end: 31450 type: interior name: default-interior
+Creating patch for front and back planes
+
+Adding new patch per_2 of type wall as patch 0
+Adding new patch per_1 of type wall as patch 1
+Adding new patch w_bottom of type wall as patch 2
+Adding new patch w_top of type wall as patch 3
+Patch default-interior is internal to the mesh  and is not being added to the boundary.
+Adding new patch frontAndBackPlanes of type empty as patch 4
+
+Writing mesh... to "constant/polyMesh"  done.
+
+
+End

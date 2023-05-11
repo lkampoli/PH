@@ -1,0 +1,1 @@
+LIB = $(realpath ../PH_2D_RANS_kOmegaSSTx/lib)/kOmegaSSTx

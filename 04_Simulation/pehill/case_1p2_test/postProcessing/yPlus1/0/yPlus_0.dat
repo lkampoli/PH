@@ -1,0 +1,4 @@
+# y+ ()       
+# Time        	patch         	min           	max           	average       
+20000         	bottomWall	3.235876e-02	7.342909e-01	2.306457e-01
+20000         	topWall	6.045320e-01	8.214665e-01	6.956354e-01

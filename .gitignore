@@ -1,0 +1,6 @@
+log.simpleFoam
+log.*
+slurm-*
+*.pkl
+*.zip
+*.gz

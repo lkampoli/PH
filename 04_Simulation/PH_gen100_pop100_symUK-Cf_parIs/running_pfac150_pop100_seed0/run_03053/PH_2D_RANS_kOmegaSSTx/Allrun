@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# Load OpenFOAM v2.4
+source /usr/local/module/spartan_old.sh
+module load OpenFOAM/2.4.0-intel-2017.u2
+source $FOAM_BASH
+
+# Add library path
+export LD_LIBRARY_PATH=/scratch/punim0394/PERIODICHILL/02_Training/OpenFOAM/lib:$LD_LIBRARY_PATH
+
+# Decompose case
+decomposePar > log.decomposePar
+
+# Launch OpenFOAM solver
+mpirun -np 4 /scratch/punim0394/PERIODICHILL/02_Training/OpenFOAM/bin/simpleFoamx -parallel > log.simpleFoamx
+
+# Reconstruct case
+reconstructPar > log.reconstructPar
+
+rm wallShearStress.sh
+echo 'source /usr/local/module/spartan_old.sh' > wallShearStress.sh
+echo 'module load OpenFOAM/2.4.0-intel-2017.u2' >> wallShearStress.sh
+echo 'source $FOAM_BASH' >> wallShearStress.sh
+echo 'wallShearStress -latestTime' >> wallShearStress.sh
+bash wallShearStress.sh
+
+rm sample.sh log.sample
+echo 'cp system/sampleDictCF system/sampleDict' >> sample.sh
+echo 'sample > log.sample' >> sample.sh
+echo 'cp system/sampleDictU system/sampleDict' >> sample.sh
+echo 'sample >> log.sample' >> sample.sh
+bash sample.sh
+
+# Postprocessing
+sample > log.sample
+
+# Remove multi-processing folders
+rm -r processor*

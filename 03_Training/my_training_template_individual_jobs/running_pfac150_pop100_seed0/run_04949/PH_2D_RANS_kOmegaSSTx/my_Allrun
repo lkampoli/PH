@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# Load OpenFOAM v2.4
+source /usr/local/module/spartan_old.sh
+module load OpenFOAM/2.4.0-intel-2017.u2
+#source /usr/local/easybuild/software/OpenFOAM/2.4.0-intel-2017.u2/OpenFOAM-2.4.0/etc/bashrc
+source $FOAM_BASH
+
+# Add library path
+export LD_LIBRARY_PATH=/scratch/punim0394/PERIODICHILL/02_Training/OpenFOAM/lib:$LD_LIBRARY_PATH
+
+# Decompose case
+decomposePar -force > log.decomposePar
+
+# Launch OpenFOAM solver
+##mpirun -np 4 /home/fwaschkowski/Software/OpenFOAM/bin/simpleFoamx -parallel > log.simpleFoamx
+mpirun -np 4 simpleFoam -parallel > log.simpleFoam 
+
+# Reconstruct case
+reconstructPar > log.reconstructPar
+
+# Postprocessing
+sample > log.sample
+
+# Remove multi-processing folders
+rm -r processor*

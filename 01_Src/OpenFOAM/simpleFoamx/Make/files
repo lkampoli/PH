@@ -1,0 +1,3 @@
+simpleFoamx.C
+
+EXE = /home/fwaschkowski/Software/OpenFOAM/bin/simpleFoamx

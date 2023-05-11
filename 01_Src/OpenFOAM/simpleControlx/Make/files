@@ -1,0 +1,2 @@
+simpleControlx.C
+LIB = /home/fwaschkowski/Software/OpenFOAM/lib/libsimpleControlx
