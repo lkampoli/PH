@@ -1,0 +1,25 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8
+Exec   : simpleFoam
+Date   : Mar 28 2023
+Time   : 12:28:22
+Host   : "6300l-146216-l.mobility.unimelb.net.au"
+PID    : 28828
+I/O    : uncollated
+Case   : /home/unimelb.edu.au/lcampoli/UoM/Testcases/PeriodicHill/03_Simulation/PH_2D_RANS_kOmegaSSTx_baseline
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 20000
+
