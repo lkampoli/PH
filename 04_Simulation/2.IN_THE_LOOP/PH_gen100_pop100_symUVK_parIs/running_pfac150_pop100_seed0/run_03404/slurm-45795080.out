@@ -1,0 +1,5 @@
+Running
+wmakeLnInclude: linking include files to ./lnInclude
+Making dependency list for source file kOmegaSSTx.C
+icpc: command line warning #10121: overriding '-xAVX2' with '-xHost'
+icpc: command line warning #10121: overriding '-xAVX2' with '-xHost'

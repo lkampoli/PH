@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : sample
+Date   : Mar 25 2023
+Time   : 22:28:09
+Host   : "spartan-bm121.hpc.unimelb.edu.au"
+PID    : 874
+Case   : /data/scratch/projects/punim0394/PERIODICHILL/02_Training/PH_gen100_pop100_symUK-Cf_parIs/running_pfac150_pop100_seed0/run_03053/PH_2D_RANS_kOmegaSSTx
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading set description:
+    X0H
+    X1H
+    X2H
+    X3H
+    X4H
+    X5H
+    X6H
+    X7H
+    X8H
+
+Time = 0
+
+Time = 8177
+
+End
+
