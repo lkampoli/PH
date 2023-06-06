@@ -1,0 +1,113 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.2.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      sampleDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+setFormat csv;
+
+interpolationScheme cellPoint;
+
+fields
+(
+    U
+    k       
+    R
+);
+
+sets
+(
+
+    X0H
+    {
+        type        face;
+        axis        y;
+
+        start       (0.05 0 0);
+        end         (0.05 5 0);
+    }
+
+    X1H
+    {
+        type        face;
+        axis        y;
+
+        start       (1 0 0);
+        end         (1 5 0);
+    }
+
+    X2H
+    {
+        type        face;
+        axis        y;
+
+        start       (2 0 0);
+        end         (2 5 0);
+    }
+
+    X3H
+    {
+        type        face;
+        axis        y;
+
+        start       (3 0 0);
+        end         (3 5 0);
+    }
+
+    X4H
+    {
+        type        face;
+        axis        y;
+
+        start       (4 0 0);
+        end         (4 5 0);
+    }
+
+    X5H
+    {
+        type        face;
+        axis        y;
+
+        start       (5 0 0);
+        end         (5 5 0);
+    }
+
+    X6H
+    {
+        type        face;
+        axis        y;
+
+        start       (6 0 0);
+        end         (6 5 0);
+    }
+
+    X7H
+    {
+        type        face;
+        axis        y;
+
+        start       (7 0 0);
+        end         (7 5 0);
+    }
+
+    X8H
+    {
+        type        face;
+        axis        y;
+
+        start       (8 0 0);
+        end         (8 5 0);
+    }
+   
+);
+// *********************************************************************** //

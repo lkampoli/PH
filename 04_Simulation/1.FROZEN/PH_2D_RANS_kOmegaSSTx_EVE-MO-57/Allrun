@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Load OpenFOAM v2.4
+source /usr/local/module/spartan_old.sh
+module load OpenFOAM/2.4.0-intel-2017.u2
+source $FOAM_BASH
+
+# Decompose case
+decomposePar > log.decomposePar
+
+# Launch OpenFOAM solver
+mpirun -np 4 simpleFoam -parallel > log.simpleFoam
+
+# Reconstruct case
+reconstructPar > log.reconstructPar
+
+# Postprocessing
+sample > log.sample
+
+# Remove multi-processing folders
+rm -r processor*

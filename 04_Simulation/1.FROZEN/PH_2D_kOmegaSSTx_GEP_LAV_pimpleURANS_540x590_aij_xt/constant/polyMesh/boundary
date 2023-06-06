@@ -1,0 +1,70 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+6
+(
+    inlet
+    {
+        type            cyclic;
+        inGroups        1(cyclic);
+        nFaces          580;
+        startFace       625280;
+        matchTolerance  0.0001;
+        transform       unknown;
+        neighbourPatch  outlet;
+    }
+    outlet
+    {
+        type            cyclic;
+        inGroups        1(cyclic);
+        nFaces          580;
+        startFace       625860;
+        matchTolerance  0.0001;
+        transform       unknown;
+        neighbourPatch  inlet;
+    }
+    top
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          540;
+        startFace       626440;
+    }
+    hills
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          540;
+        startFace       626980;
+    }
+    front
+    {
+        type            empty;
+        inGroups        1(empty);
+        nFaces          313200;
+        startFace       627520;
+    }
+    back
+    {
+        type            empty;
+        inGroups        1(empty);
+        nFaces          313200;
+        startFace       940720;
+    }
+)
+
+// ************************************************************************* //
