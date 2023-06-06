@@ -1,0 +1,2225 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : sample
+Date   : May 02 2023
+Time   : 17:30:07
+Host   : "spartan-bm085.hpc.unimelb.edu.au"
+PID    : 23664
+Case   : /data/scratch/projects/punim0394/PERIODICHILL/03_Simulation/PH_2D_RANS_kOmegaSSTx_baseline_pimpleURANS
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function dlOpen(const fileName&, const bool)
+    in file POSIX.C at line 1179
+    dlopen error : ./lib/kOmegaSSTx.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From function dlLibraryTable::open(const fileName&, const bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 99
+    could not load "./lib/kOmegaSSTx.so"
+Create mesh for time = 0
+
+Reading set description:
+    X0H
+    X1H
+    X2H
+    X3H
+    X4H
+    X5H
+    X6H
+    X7H
+    X8H
+
+Time = 0
+
+Time = 1
+
+Time = 2
+
+Time = 3
+
+Time = 4
+
+Time = 5
+
+Time = 6
+
+Time = 7
+
+Time = 8
+
+Time = 9
+
+Time = 10
+
+Time = 11
+
+Time = 12
+
+Time = 13
+
+Time = 14
+
+Time = 15
+
+Time = 16
+
+Time = 17
+
+Time = 18
+
+Time = 19
+
+Time = 20
+
+Time = 21
+
+Time = 22
+
+Time = 23
+
+Time = 24
+
+Time = 25
+
+Time = 26
+
+Time = 27
+
+Time = 28
+
+Time = 29
+
+Time = 30
+
+Time = 31
+
+Time = 32
+
+Time = 33
+
+Time = 34
+
+Time = 35
+
+Time = 36
+
+Time = 37
+
+Time = 38
+
+Time = 39
+
+Time = 40
+
+Time = 41
+
+Time = 42
+
+Time = 43
+
+Time = 44
+
+Time = 45
+
+Time = 46
+
+Time = 47
+
+Time = 48
+
+Time = 49
+
+Time = 50
+
+Time = 51
+
+Time = 52
+
+Time = 53
+
+Time = 54
+
+Time = 55
+
+Time = 56
+
+Time = 57
+
+Time = 58
+
+Time = 59
+
+Time = 60
+
+Time = 61
+
+Time = 62
+
+Time = 63
+
+Time = 64
+
+Time = 65
+
+Time = 66
+
+Time = 67
+
+Time = 68
+
+Time = 69
+
+Time = 70
+
+Time = 71
+
+Time = 72
+
+Time = 73
+
+Time = 74
+
+Time = 75
+
+Time = 76
+
+Time = 77
+
+Time = 78
+
+Time = 79
+
+Time = 80
+
+Time = 81
+
+Time = 82
+
+Time = 83
+
+Time = 84
+
+Time = 85
+
+Time = 86
+
+Time = 87
+
+Time = 88
+
+Time = 89
+
+Time = 90
+
+Time = 91
+
+Time = 92
+
+Time = 93
+
+Time = 94
+
+Time = 95
+
+Time = 96
+
+Time = 97
+
+Time = 98
+
+Time = 99
+
+Time = 100
+
+Time = 101
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 102
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 103
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 104
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 105
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 106
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 107
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 108
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 109
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 110
+
+Time = 111
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 112
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 113
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 114
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 115
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 116
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 117
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 118
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 119
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 120
+
+Time = 121
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 122
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 123
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 124
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 125
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 126
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 127
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 128
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 129
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 130
+
+Time = 131
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 132
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 133
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 134
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 135
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 136
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 137
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 138
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 139
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 140
+
+Time = 141
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 142
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 143
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 144
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 145
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 146
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 147
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 148
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 149
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 150
+
+Time = 151
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 152
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 153
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 154
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 155
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 156
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 157
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 158
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 159
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 160
+
+Time = 161
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 162
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 163
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 164
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 165
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 166
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 167
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 168
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 169
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 170
+
+Time = 171
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 172
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 173
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 174
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 175
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 176
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 177
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 178
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 179
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 180
+
+Time = 181
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 182
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 183
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 184
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 185
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 186
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 187
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 188
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 189
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 190
+
+Time = 191
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 192
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 193
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 194
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 195
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 196
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 197
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 198
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 199
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 200
+
+Time = 201
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 202
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 203
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 204
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 205
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 206
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 207
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 208
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 209
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 210
+
+Time = 211
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 212
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 213
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 214
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 215
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 216
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 217
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 218
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 219
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 220
+
+Time = 221
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 222
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 223
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 224
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 225
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 226
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 227
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 228
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 229
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 230
+
+Time = 231
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 232
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 233
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 234
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 235
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 236
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 237
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 238
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 239
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 240
+
+Time = 241
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 242
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 243
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 244
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 245
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 246
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 247
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 248
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 249
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 250
+
+Time = 251
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 252
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 253
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 254
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 255
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 256
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 257
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 258
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 259
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 260
+
+Time = 261
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 262
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 263
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 264
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 265
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 266
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 267
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 268
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 269
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 270
+
+Time = 271
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 272
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 273
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 274
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 275
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 276
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 277
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 278
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 279
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 280
+
+Time = 281
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 282
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 283
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 284
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 285
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 286
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 287
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 288
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 289
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 290
+
+Time = 291
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 292
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 293
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 294
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 295
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 296
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 297
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 298
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 299
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching U
+--> FOAM Warning : 
+    From function sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 109
+    Cannot find field file matching k
+
+Time = 300
+
+Time = 301
+
+Time = 302
+
+Time = 303
+
+Time = 304
+
+Time = 305
+
+Time = 306
+
+Time = 307
+
+Time = 308
+
+Time = 309
+
+Time = 310
+
+Time = 311
+
+Time = 312
+
+Time = 313
+
+Time = 314
+
+Time = 315
+
+Time = 316
+
+Time = 317
+
+Time = 318
+
+Time = 319
+
+Time = 320
+
+Time = 321
+
+Time = 322
+
+Time = 323
+
+Time = 324
+
+Time = 325
+
+Time = 326
+
+Time = 327
+
+Time = 328
+
+Time = 329
+
+Time = 330
+
+Time = 331
+
+Time = 332
+
+Time = 333
+
+Time = 334
+
+Time = 335
+
+Time = 336
+
+Time = 337
+
+Time = 338
+
+Time = 339
+
+Time = 340
+
+Time = 341
+
+Time = 342
+
+Time = 343
+
+Time = 344
+
+Time = 345
+
+Time = 346
+
+Time = 347
+
+Time = 348
+
+Time = 349
+
+Time = 350
+
+Time = 351
+
+Time = 352
+
+Time = 353
+
+Time = 354
+
+Time = 355
+
+Time = 356
+
+Time = 357
+
+Time = 358
+
+Time = 359
+
+Time = 360
+
+Time = 361
+
+Time = 362
+
+Time = 363
+
+Time = 364
+
+Time = 365
+
+Time = 366
+
+Time = 367
+
+Time = 368
+
+Time = 369
+
+Time = 370
+
