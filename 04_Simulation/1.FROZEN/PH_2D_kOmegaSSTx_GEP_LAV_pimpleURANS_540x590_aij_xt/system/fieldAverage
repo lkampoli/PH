@@ -1,0 +1,142 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+fieldAverage1
+    {
+        type                fieldAverage;
+        functionObjectLibs  ("libfieldFunctionObjects.so");
+        enabled             true;
+        outputControl       outputTime;
+        timeStart           0;
+        timeEnd             10000;
+        resetOnOutput       false;
+        resetOnRestart      false;
+
+        fields
+        (
+            U
+            {
+                mean         on;
+                prime2Mean   on;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            p
+            {
+                mean         on;
+                prime2Mean   on;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            T
+            {
+                mean         on;
+                prime2Mean   on;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            k
+            {
+                mean         on;
+                prime2Mean   on;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            epsilon
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            nut
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            alphat
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            aijx
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            R
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            } 
+
+            /* alphaSgs
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+
+            nuSgs
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            } 
+
+            p_rgh
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+         
+            UT
+            {
+                mean         on;
+                prime2Mean   off;
+                base         time;
+                allowRestart true;
+                window       50;
+            }
+            */
+ 
+        );
+    }
+
