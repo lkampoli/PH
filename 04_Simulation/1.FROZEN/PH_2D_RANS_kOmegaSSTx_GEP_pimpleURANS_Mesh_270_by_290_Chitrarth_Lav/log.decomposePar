@@ -1,0 +1,105 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : decomposePar -force
+Date   : May 22 2023
+Time   : 09:44:27
+Host   : "spartan-bm083.hpc.unimelb.edu.au"
+PID    : 94619
+I/O    : uncollated
+Case   : /data/scratch/projects/punim0394/PERIODICHILL/03_Simulation/PH_2D_RANS_kOmegaSSTx_GEP_pimpleURANS_Mesh_270_by_290_Chitrarth_Lav
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Removing 4 existing processor directories
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+ Foam::decompositionMethod::New 
+{
+    numberOfSubdomains 4;
+    method          scotch;
+}
+
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0.06 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 19698
+    Number of faces shared with processor 1 = 264
+    Number of faces shared with processor 2 = 110
+    Number of faces shared with processor 3 = 86
+    Number of processor patches = 3
+    Number of processor faces = 460
+    Number of boundary faces = 39518
+
+Processor 1
+    Number of cells = 19475
+    Number of faces shared with processor 0 = 264
+    Number of faces shared with processor 2 = 65
+    Number of faces shared with processor 3 = 93
+    Number of processor patches = 3
+    Number of processor faces = 422
+    Number of boundary faces = 39352
+
+Processor 2
+    Number of cells = 19650
+    Number of faces shared with processor 0 = 110
+    Number of faces shared with processor 1 = 65
+    Number of faces shared with processor 3 = 276
+    Number of processor patches = 3
+    Number of processor faces = 451
+    Number of boundary faces = 39441
+
+Processor 3
+    Number of cells = 19477
+    Number of faces shared with processor 0 = 86
+    Number of faces shared with processor 1 = 93
+    Number of faces shared with processor 2 = 276
+    Number of processor patches = 3
+    Number of processor faces = 455
+    Number of boundary faces = 39409
+
+Number of processor faces = 894
+Max number of cells = 19698 (0.62835249% above average 19575)
+Max number of processor patches = 3 (0% above average 3)
+Max number of faces between processors = 460 (2.9082774% above average 447)
+
+Time = 240
+
+Processor 0: field transfer
+Detected additional non-decomposed files in "/data/scratch/projects/punim0394/PERIODICHILL/03_Simulation/PH_2D_RANS_kOmegaSSTx_GEP_pimpleURANS_Mesh_270_by_290_Chitrarth_Lav/240/uniform"
+Processor 1: field transfer
+Detected additional non-decomposed files in "/data/scratch/projects/punim0394/PERIODICHILL/03_Simulation/PH_2D_RANS_kOmegaSSTx_GEP_pimpleURANS_Mesh_270_by_290_Chitrarth_Lav/240/uniform"
+Processor 2: field transfer
+Detected additional non-decomposed files in "/data/scratch/projects/punim0394/PERIODICHILL/03_Simulation/PH_2D_RANS_kOmegaSSTx_GEP_pimpleURANS_Mesh_270_by_290_Chitrarth_Lav/240/uniform"
+Processor 3: field transfer
+Detected additional non-decomposed files in "/data/scratch/projects/punim0394/PERIODICHILL/03_Simulation/PH_2D_RANS_kOmegaSSTx_GEP_pimpleURANS_Mesh_270_by_290_Chitrarth_Lav/240/uniform"
+
+End
+

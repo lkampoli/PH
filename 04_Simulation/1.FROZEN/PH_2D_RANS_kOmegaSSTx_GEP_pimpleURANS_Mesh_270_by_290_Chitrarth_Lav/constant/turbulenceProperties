@@ -1,0 +1,34 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.2.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      turbulenceProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+simulationType  RAS;
+
+RAS
+{
+    RASModel        kOmegaSST_BOR_frozen_R_OF7;
+    turbulence      on;
+    printCoeffs     on;
+
+    kOmegaSST_BOR_frozen_R_OF7Coeffs
+    {
+        model           Chitrarth_Lav;
+        aijx_term       "2.0"; // 2.0 ON and 1.0 OFF
+        Rterm_corr      "1.0";
+    };
+}
+
+// ************************************************************************* //

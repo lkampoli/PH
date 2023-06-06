@@ -1,0 +1,89 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1812                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      fvSchemes;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+ddtSchemes
+{
+    default         CrankNicolson 0.5; //Euler; //steadyState;
+}
+
+gradSchemes
+{
+    //default       Gauss linear;
+    default         cellLimited Gauss linear 1;
+    grad(U)         cellLimited Gauss linear 1;
+}
+
+divSchemes
+{
+    default         none;
+    div(phi,U)                    bounded Gauss upwind;
+    div(phi,k)                    bounded Gauss upwind; //limitedLinear 1; //bounded Gauss upwind;
+    div(phi,omega)                bounded Gauss upwind; //limitedLinear 1; //bounded Gauss upwind;
+    div((nuEff*dev(T(grad(U)))))  Gauss linear;
+    div(dev(((2*k)*Ax)))          Gauss linear;
+
+    default          none;
+    div(phi,U)       Gauss upwind; //  Gauss limitedLinear 1; // Gauss linearUpwindV grad(U); //Gauss LUST grad(U); //Gauss upwind;//Gauss linearUpwind grad(U)
+    div(phi,h)       Gauss upwind; //  Gauss limitedLinear 1; //Gauss LUST grad(U); //Gauss upwind;
+    div(phi,T)       Gauss upwind; // Gauss limitedLinear 1; //Gauss LUST grad(U); //Gauss upwind;
+    div(phi,omega)   Gauss upwind; //Gauss limitedLinear 1; //Gauss upwind;
+    div(phi,k)       Gauss upwind; //Gauss limitedLinear 1; //Gauss upwind;
+    div(phi,epsilon) Gauss upwind;
+    div(phi,R)       Gauss upwind;
+    div(phi,K)       Gauss linear;
+    div(phi,Ekp)     Gauss linear;
+    div(R)           Gauss linear;
+    div((nuEff*dev(T(grad(U))))) Gauss linear;
+    div(phiv,p)      Gauss linear;
+    div(phi,B)       Gauss limitedLinear 1;
+    div(phi,muTilda) Gauss limitedLinear 1;
+    div(B)           Gauss linear; 
+    div(dev(((2*k)*aijx))) Gauss linear;
+    div((nuEff*dev2(T(grad(U))))) Gauss linear;
+    div(nonlinearStress) Gauss linear;
+}
+
+laplacianSchemes
+{
+    default         Gauss linear limited 0.5; //Gauss linear corrected;
+    //default         Gauss linear corrected;
+}
+
+interpolationSchemes
+{
+    default         linear;
+}
+
+snGradSchemes
+{
+    default         limited 0.5; //corrected;
+    //default         corrected;
+}
+
+wallDist
+{
+    method          meshWave;
+    nRequired       yes;
+}
+
+fluxRequired
+{
+    default         no;
+    p               ;
+}
+
+// ************************************************************************* //
