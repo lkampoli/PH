@@ -1,0 +1,120 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "25000";
+    object      nut;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -1 0 0 0 0];
+
+internalField   nonuniform List<scalar> 
+15
+(
+1.01388e-11
+1.02079e-11
+2.23465e-09
+2.24967e-09
+6.29536e-08
+5.44228e-07
+2.03119e-06
+4.41386e-06
+7.08014e-06
+1.00195e-05
+1.31079e-05
+1.62803e-05
+1.95165e-05
+2.28459e-05
+2.63451e-05
+)
+;
+
+boundaryField
+{
+    bottomWall
+    {
+        type            nutLowReWallFunction;
+        Cmu             0.09;
+        kappa           0.41;
+        E               9.8;
+        value           nonuniform 0();
+    }
+    defaultFaces
+    {
+        type            empty;
+    }
+    inlet
+    {
+        type            cyclic;
+    }
+    outlet
+    {
+        type            cyclic;
+    }
+    topWall
+    {
+        type            nutLowReWallFunction;
+        Cmu             0.09;
+        kappa           0.41;
+        E               9.8;
+        value           uniform 0;
+    }
+    procBoundary4to2
+    {
+        type            processor;
+        value           nonuniform List<scalar> 
+15
+(
+1.028e-11
+2.26512e-09
+6.33375e-08
+6.33375e-08
+5.46475e-07
+2.03339e-06
+4.39998e-06
+7.04845e-06
+9.96792e-06
+1.30367e-05
+1.61947e-05
+1.94259e-05
+2.27633e-05
+2.62875e-05
+3.01389e-05
+)
+;
+    }
+    procBoundary4to5
+    {
+        type            processor;
+        value           nonuniform List<scalar> 
+13
+(
+1.00724e-11
+2.22003e-09
+6.25689e-08
+5.41861e-07
+2.02831e-06
+4.4263e-06
+7.11004e-06
+1.00695e-05
+1.31781e-05
+1.6366e-05
+1.96087e-05
+2.29318e-05
+2.64081e-05
+)
+;
+    }
+}
+
+
+// ************************************************************************* //

@@ -1,0 +1,11 @@
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" name="internalMesh" file="sol/sol_0_0.vtu">
+    </DataSet>
+  </vtkMultiBlockDataSet>
+  <FieldData>
+    <DataArray type="Int8" Name="CasePath" NumberOfTuples="154" format="binary" RangeMin="0" RangeMax="117">
+      mgAAAAAAAAAvaG9tZS91bmltZWxiLmVkdS5hdS9sY2FtcG9saS9Vb00vVGVzdGNhc2VzL1BlcmlvZGljSGlsbC8wNF9TaW11bGF0aW9uLzAuQkFTRUxJTkUvcGFyYS1kYXRhYmFzZS1mb3ItUElNTC1tYXN0ZXIvcGVoaWxsLTUtY2FzZXMtT3BlbkZPQU0vY2FzZV8xcDBfcmVmaW5lZC8A
+    </DataArray>
+  </FieldData>
+</VTKFile>
