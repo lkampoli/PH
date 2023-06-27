@@ -1,0 +1,6 @@
+Ax0_ = (EXPR00) * T01 + (EXPR01) * T02 + (EXPR02) * T03;
+Rx0_ = (EXPR03) * T01 + (EXPR04) * T02 + (EXPR05) * T03;
+Ax1_ = (EXPR06) * T01 + (EXPR07) * T02 + (EXPR08) * T03;
+Rx1_ = (EXPR09) * T01 + (EXPR10) * T02 + (EXPR11) * T03;
+Ax2_ = (EXPR12) * T01 + (EXPR13) * T02 + (EXPR14) * T03;
+Rx2_ = (EXPR15) * T01 + (EXPR16) * T02 + (EXPR17) * T03;
